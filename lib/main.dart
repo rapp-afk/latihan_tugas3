@@ -8,6 +8,6 @@ class Warteg {
   }
 }
 void main() {
-  print(Warteg.namaWarteg) 
+  print(Warteg.namaWarteg); 
 }   
 
