@@ -7,7 +7,10 @@ class Warteg {
     print("yo namaku $namaPembeli saya lagi makan di $namaWarteg.");
   }
 }
+
 void main() {
   print(Warteg.namaWarteg); 
-}   
 
+  Warteg pembeli1 = Warteg("rap");
+  pembeli1.pesanan(); 
+}
