@@ -16,4 +16,10 @@ void main() {
   
   Warteg pembeli2 = Warteg("fathur");
   pembeli2.pesanan(); 
+
+  Warteg.namaWarteg = "warteg pakem kemis";
+
+  print("\n-perubahan nilai static-");
+  pembeli1.pesanan(); 
+  pembeli2.pesanan();
 }
